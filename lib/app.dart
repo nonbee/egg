@@ -1,3 +1,4 @@
+import 'package:egg/ui/brand/brand_page.dart';
 import 'package:flutter/material.dart';
 import 'package:egg/ui/top/top_page.dart';
 
@@ -32,7 +33,7 @@ class App extends StatelessWidget {
           body: const TabBarView(
             children: <Widget>[
               TopPage(),
-              Icon(Icons.directions_transit),
+              BrandPage(),
               Icon(Icons.directions_bike),
             ],
           ),
